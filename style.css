@@ -75,3 +75,213 @@
 	}
   }
 
+  body {
+	color: #ffffff;
+	overflow-x: hidden;
+	background-color: #333333;
+	font-family: "League Gothic", sans-serif;
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  html {
+	scroll-behavior: smooth;
+  }
+  
+  h2 {
+	font-size: 45px;
+	text-align: center;
+	color:black;
+  }
+  
+  p {
+	font-size: 20px;
+	line-height: 30px;
+  }
+  
+  .container {
+	max-width: 1300px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: 0 auto;
+	
+  }
+  
+  /* nav */
+  .main-navbar {
+	background-color: transparent;
+	position:fixed;
+  }
+  
+  .main-navbar .contents {
+	display: flex;
+	height: 60px;
+  }
+  
+  .main-navbar ul {
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 150px;
+	text-align: right;
+	background-color: white;
+	
+  }
+  
+  .main-navbar ul li {
+	margin-bottom: 10px;
+  }
+  
+  .main-navbar ul li a {
+	color:black;
+	display: block;
+	font-size: 24px;
+	padding: 10px 0;
+	text-decoration: none;
+  }
+
+
+  /*Banner*/
+  .banner {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(252, 248, 248);
+  }
+  
+  .banner .container {
+	padding: 0;
+	background: url(/selfie.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+  }
+  
+  .banner .contents {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	padding-left: 15px;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-position:center;
+	background-size: cover;
+	margin-top: -100px;
+	padding-bottom: 100px;
+	color:red
+	
+  }
+  
+  .banner .contents h2,
+  .banner .contents p {
+	display: inline-block;
+	color: black;
+	margin-bottom: 10px;
+	font-family: "Anton", sans-serif;
+  }
+  
+  .banner .contents h2 {
+	font-size: 45px;
+  }
+  
+  .banner .contents p {
+	font-size: 18px;
+  }
+  img{
+	width: 400px;
+	height:700px;
+}
+
+/*About*/
+#about {
+	display: flex;
+	padding: 20px 0;
+	min-height: 50vh;
+	align-items: center;
+	background: blueviolet;
+  }
+  
+  #about h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  #about .contents {
+	display: center;
+	grid-gap: 50px;
+	grid-template-columns: 1fr;
+  }
+
+  /* work */
+
+  #work {
+	background: white;
+  }
+  
+ 
+  /*Contact */
+  #contact {
+	padding: 20px 0;
+	background-color:white;
+  }
+  
+  #contact h2 {
+	margin-bottom: 20px;
+  }
+  
+  #contact .contents .info .card {
+	display: flex;
+	color: black;
+	width: 100%;
+	height: 100px;
+	justify-content: center;
+	border-radius: 1px;
+	flex-direction: column;
+	align-items:center;
+	margin-bottom: 1px;
+	
+	border: 3px solid black;
+  }
+  
+  #contact .contents .info .card:hover {
+	color: blue;
+	box-shadow: 0 5px 15px gold;
+  }
+  
+  #contact .contents .info .card h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+
+  /*foot*/
+  footer {
+	width: 100%;
+	background-color: #000000;
+  }
+  
+  footer .contents {
+	height: 100%;
+	padding: 20px 0;
+	text-align: center;
+  }
+
+  footer .contents .social-media {
+	margin: 10px 0;
+  }
+  
+  footer .contents .social-media a {
+	display: inline-block;
+  }
+
+  footer .contents .social-media img {
+	  height:50px;
+	  width: 50px;
+
+  }
+  
+ 
+  
+
+
