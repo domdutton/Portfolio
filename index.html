@@ -1,106 +1,108 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <title>Dom's Portfolio</title>
-        <script src="script.js" async defer></script>
-    </head>
-    <body>
-        <nav class="main-navbar">
-            <div class="container">
-              <div id="nav_contents" class="contents">
-                <ul>
-                  <li id="home-button"><a href="#">Home</a></li>
-                  <li id="about-button"><a href="#about">About</a></li>
-                  <li id="work-button"><a href="#work">Work</a></li>
-                  <li id="contact-button"><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>  
-          <section class="banner">
-            <div class="container">
-              
-              <div class="contents" >
-                 
-                  
-                <h2>Hello There!</h2>
-                <p>I'm Dom, a Software Engineer.</p>
-                
-              </div>
-            </div>
-          </section> 
-          <section id="about">
-            <div class="container">
-              <h2>Little about me!</h2>
-              <div class="contents">
-                <p>
-                  "My name is Dominique Dutton. I am originally from Sacramento, Ca.
-                  I served 8 years active duty in the United States Air Force. Computers
-                  are my passion"
-                </p>
-                <div id="resume-button"></div>
-                <button><a href="resume.png" style="text-decoration: none">My resume</a></button>
-              </div>
-               
-               
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Portfolio website</title>
+    <script src="script.js" async defer></script>
+  </head>
+  <body onload="welcome();"> 
+    <nav class="main-navbar">
+      <div class="container">
+        <div id="nav-items" class="contents">    
+          <ul>
+            <li id="home-button" ><a href="#">Home</a></li>
+            <li id="about-button" ><a href="#about">About</a></li>
+            <li id="work_button" ><a href="#work">Work</a></li>
+            <li id="contact-button" ><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <section class="banner">
+      <div class="container">
+        
+        <div class="contents" >
+           
+          <h2>Hello There!</h2>
+          <p>I'm Dom, a Software Engineer.</p>
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2>Little about me!</h2>
+        <div class="contents">
+          <p>
+            My name is Dominique Dutton.  I am originally from Sacramento,CA. I served 8 years active duty in the Air force <span id="read-more" onclick="read_more_text();">Read more</span><span id="more-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.</span><span id="read-less" onclick="read_less_text();">Read less</span>
+          </p>
+          <div id="resume-button"></div>
+          <button><a href="resume.png" style="text-decoration: none">My resume</a></button>
+        </div>
+         
+         
+          </div>
+
+</div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="container">
+        <h2>Projects</h2>
+        <img src="comingsoon.jpeg" alt="coming soon stock photo">
+        <div class="contents"></div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact me!</h2>
+        <div class="contents">
+          <div class="info">
+            <div class="card">
+              <h3>Email</h3>
+              <div>
+                <p>ddd94608@gmail.com</p>
               </div>
+              
             </div>
-          </section>
-          <section id="work">
-            <div class="container">
-              <h2>Projects</h2>
-              <img src="comingsoon.jpeg" alt="coming soon stock photo">
-              <div class="contents"></div>
+            <div class="card">
+              <h3>Phone</h3>
+              <p>510-570-4605</p>
             </div>
-          </section>
-          <section id="contact">
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <footer>
+        <section>
             <div class="container">
-              <h2>Contact me!</h2>
-              <div class="contents">
-                <div class="info">
-                  <div class="card">
-                    <h3>Email</h3>
-                    <div>
-                      <p>ddd94608@gmail.com</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <h3>Phone</h3>
-                    <p>510-570-4605</p>
+                <div class="contents">
+                  <h5> Give a follow on</h5>
+                  <div class="social-media">
+                    <a href="https://www.linkedin.com/" target="blank">
+                      <img src="linkedin.png" alt="Facebook Icon"/>
+                    </a>
+                    <a href="https://github.com/domdutton" target="blank">
+                      <img src="github.png" alt="Github Icon"/>
+                    </a>
+                    <a href="javascript:void(0);" class="go-to-top" onclick="scroll_to_top();">BACK TO TOP</a>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <footer>
-              <section>
-                  <div class="container">
-                      <div class="contents">
-                        <h5> Give a follow on</h5>
-                        <div class="social-media">
-                          <a href="https://www.linkedin.com/" target="blank">
-                            <img src="linkedin.png" alt="Facebook Icon"/>
-                          </a>
-                          <a href="https://github.com/domdutton" target="blank">
-                            <img src="github.png" alt="Github Icon"/>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-              </section>
-          </footer> 
-    </body>
+        </section>
+    </footer>
+  </body>
 </html>
