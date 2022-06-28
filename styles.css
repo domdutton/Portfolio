@@ -100,14 +100,6 @@ body {
 	min-height: 100vh;
 	background-color: rgb(252, 248, 248);
   }
-  
-  .banner .container {
-	padding: 0;
-	background: url(/selfie.jpg);
-	background-repeat: no-repeat;
-	background-position: right;
-  }
-  
   .banner .contents {
 	width: 100%;
 	min-height: 100vh;
