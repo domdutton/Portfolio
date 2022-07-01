@@ -4,7 +4,7 @@ Porfolio
 
 This is a webpage displaying my personal portfolio of personal & work history.
 
-## Aproach Taken:
+## Approach Taken:
 
 My first steps was to build out the HTML and get all of my sections situated with.  My next step was to focus on CSS and building out my media queries keeping mobile design in mind first. Lastly I implemented features into my webpage through javascript. 
 
